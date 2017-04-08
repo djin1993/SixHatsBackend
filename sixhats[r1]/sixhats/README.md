@@ -21,9 +21,9 @@ $ composer
 ```
 ### API Endpints
 ```sh
-$ GET /api/customers
-$ GET /api/customer/{id}
-$ POST /api/customer/add
-$ PUT /api/customer/update/{id}
-$ DELETE /api/customer/delete/{id}
+$ GET /api/users
+$ GET /api/user/{id}
+$ POST /api/user/add
+$ PUT /api/user/update/{id}
+$ DELETE /api/user/delete/{id}
 ```
