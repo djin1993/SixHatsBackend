@@ -10,7 +10,6 @@ This is a RESTful api built with the SlimPHP framework and uses MySQL for storag
 
 ### Installation
 
-Create database or import from _sql/slimapp.sql
 
 Edit db/config params
 
@@ -21,9 +20,9 @@ $ composer
 ```
 ### API Endpints
 ```sh
-$ GET /api/customers
-$ GET /api/customer/{id}
-$ POST /api/customer/add
+$ GET /api/users
+$ GET /api/user/{id}
+$ POST /api/users/add
 $ PUT /api/customer/update/{id}
-$ DELETE /api/customer/delete/{id}
+$ DELETE /api/user/delete/{id}
 ```
